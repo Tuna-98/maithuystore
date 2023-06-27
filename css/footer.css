@@ -1,0 +1,21 @@
+.footer__content__item__logo {
+  width: 175px;
+}
+.footer__content__item__top {
+  height: 118px;
+  background-image: url(/images/page-bg.png?05384ac8206ce6fea89ff3ec91c05c8f);
+  background-size: cover;
+}
+.footer__content__item__top__content {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.footer__content__item__social__list a {
+  width: 31px;
+  height: 31px;
+}
+.footer__content__item__social__list a:hover {
+  background-color: var(--color-1) !important;
+}
+.footer__content__item__social__list a:hover i {
+  color: var(--color-10) !important;
+}

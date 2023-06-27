@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="cửa hàng Mai Thuý">
+  <meta name="author" content="">
+  <meta property="og:title" content="Bách Việt" />
+  <meta property="og:url" content="Bách Việt" />
+  <meta property="og:site_name" content="Bách Việt" />
+  <meta property="og:image" content="./images/about-us.png" />
+  <meta property="og:image:secure_url" content="./images/about-us.png" />
+  <link rel="icon" href="./images/logobachviet.png" image/gif" sizes="32x32">
+  <title>MVSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<!--  -->
+	<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+	<!--  -->
+	<link rel="stylesheet" href="./css/home-page.css" />
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
+  <!-- <link rel="stylesheet" href="./css/landingpage.css"> -->
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+  <div class="wrapper home-page">
+		<header class="header pb-3 pb-lg-0">
+			<div class="header__top d-none d-lg-flex align-items-center bg-color-3 py-2">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="header__top__left col-lg-9">
+								<ul class="d-flex align-items-center p-0 m-0">
+									<li class="me-3 list-unstyled d-flex align-items-center">
+										<i class="fas fa-phone-alt me-2 color-8"></i>
+										<a href="tel:0962180180" class="fs-8 color-8 text-decoration-none">0962.180.180</a>
+									</li>
+									<li class="me-3 list-unstyled d-flex align-items-center">
+										<i class="fas fa-envelope me-2 color-8"></i>
+										<a href="mailto:info@cửa hàng Mai Thuý.vn" subject="subject text" class="fs-8 color-8 text-decoration-none">info@cửa hàng Mai Thuý.vn</a>
+									</li>
+									<li class="me-3 list-unstyled d-flex align-items-center">
+										<i class="fa-sharp fa-solid fa-location-dot me-2 color-8"></i>
+										<a href="!#" class="fs-8 color-8 text-decoration-none">Store</a>
+									</li>
+									<!-- <li class="list-unstyled d-flex align-items-center">
+										<i class="fa-solid fa-language me-2 color-8"></i>
+										<a href="!#" class="fs-8 color-8 text-decoration-none">Ngôn ngữ</a>
+									</li> -->
+								</ul>
+							</div>
+							<div class="header__top__right col-lg-3 d-flex align-items-center justify-content-end">
+								<div class="d-flex justify-content-end">
+									<ul class="d-flex align-items-center p-0 m-0">
+										<li class="list-unstyled">
+											<a href="!#" class="text-decoration-none">
+												<i class="fa-brands fa-facebook-f fs-6 color-8 rounded-circle d-flex align-items-center justify-content-center me-3"></i>
+											</a>
+										</li>
+										<li class="list-unstyled">
+											<a href="!#" class="text-decoration-none">
+												<i class="fa-brands fa-instagram fs-6 color-8 rounded-circle d-flex align-items-center justify-content-center me-3"></i>
+											</a>
+										</li>
+										<li class="list-unstyled">
+											<a href="!#" class="text-decoration-none">
+												<i class="fa-brands fa-twitter fs-6 color-8 rounded-circle d-flex align-items-center justify-content-center me-3"></i>
+											</a>
+										</li>
+										<li class="list-unstyled">
+											<a href="!#" class="text-decoration-none">
+												<i class="fa-brands fa-google-plus-g fs-6 color-8 rounded-circle d-flex align-items-center justify-content-center"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom d-flex d-lg-unset bg-color-2 position-relative py-4 box-shadow-sm ">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex align-items-center justify-content-center justify-content-lg-between">
+							<i class="fa-solid fa-bars d-block d-lg-none position-absolute top-50 translate-middle start-0 ms-4 fs-5 color-9" onclick="showSideBar()"></i>
+							<img class="header__bottom__logo" src="./images/logo.svg" alt="">
+							<div class="d-none d-lg-flex align-items-center justify-content-end">
+								<ul class="header__bottom__menu d-flex align-items-center p-0 m-0">
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Trang chủ</a></li>
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Giới thiệu</a><i class="bi bi-chevron-down fs-9 color-3 ms-1"></i></li>
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Sản phẩm</a><i class="bi bi-chevron-down fs-9 color-3 ms-1"></i></li>
+									<!-- <li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Dự án</a></li> -->
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Quy trình sản xuất</a></li>
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Tin tức</a></li>
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Tuyển dụng</a></li>
+									<li class="list-unstyled"><a href="!#" class="fs-7 fw-3 color-3 text-decoration-none me-4">Liên Hệ</a></li>
+								</ul>
+								<i class="fa-solid fa-magnifying-glass fs-6 color-3 cursor-pointer me-4"></i>
+								<a href="!#" class="text-decoration-none"><div class="btn btn--color-1 rounded-10 fs-6 fw-3 color-10 px-4 py-2">Báo giá</div></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__search-form d-block d-md-none position-relative py-0 px-3 bg-color-2 position-relative m-auto">
+				<form role="search" method="get" action="/tim-kiem">
+					<input type="search" name="" class="boder-1 border search-form__input py-2 px-3 rounded-10 px-4 rounded-6 w-100" placeholder="Nhập từ khoá tìm kiếm..." />
+					<button type="submit" value="Tìm kiếm" class="position-absolute top-50 end-0 translate-middle-y border-0 me-4 search-btn search-form__button bg-color-10">
+						<img src="./images/search.svg" alt="">
+					</button>
+				</form>
+			</div>
+		</header>
+    <main class="main">
+
+			<section class="slider-image owl-carousel owl-theme nav--true nav--color-10 nav--inside dot--inside dot--true dot--color-10">
+				<div class="w-100 h-100">
+					<img class="w-100 h-100 object-fit-cover" src="./images/slider/slider1.jpeg" alt=""/>
+				</div>
+				<div class="w-100 h-100">
+					<img class="w-100 h-100 object-fit-cover" src="./images/slider/slider3.png" alt=""/>
+				</div>
+			</section>
+			 
+			<section class="about-us py-5 bg-color-2">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<h2 class="title color-4 mb-0">
+								Về chúng tôi<div class="line bg-color-1 mt-2"></div>
+							</h2>
+							<div class="mt-4 pt-1">
+								<p class="fs-7 fw-normal color-4 mb-0">Cử hàng Mai Thuý là đơn vị hàng đầu về tư vấn thiết kế không gian gối đệm văn phòng và gối đệm gia đình.</p>
+								<p class="fs-7 fw-normal color-4 mt-3 mb-0">Chúng tôi có hơn 12 năm kinh nghiệm về việc sản xuất đồ gỗ, có nhàmáy sản xuất đồ gỗ công nghiệp và gỗ tự nhiên. Hiện tại cửa hàng Mai Thuý có 5showroom trưng bày sản phẩm trên toàn quốc.</p>
+								<p class="fs-7 fw-normal color-4 mt-3 mb-0">Xuất phát từ niềm đam mê với gối đệm và đam mê cái đẹp. cửa hàng Mai Thuý ở đâyđể giúp bạn tạo nên những không gian tuyệt vời nhất và tốt nhất theocách của riêng bạn. Sứ mệnh của chúng tôi luôn tạo ra những sản phẩmđẳng cấp nhất thể hiện bản sắc và tính cách riêng của gia chủ.</p>
+							</div>
+							<div class="mt-4 pt-1">
+								<a href="!#" class="btn btn--color-1 rounded-10 fs-6 fw-3 color-10 px-4 py-2">Tìm hiểu thêm về chúng tôi</a>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6 mt-4 mt-lg-0">
+							<div class="w-100 h-100 rounded-10 overflow-hidden">
+								<img class="w-100" src="./images/slider/Mau-rem-cua-dep-25.jpeg" alt=""/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			 
+			<!-- <section class="new-product py-5">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<h2 class="title color-4 d-flex flex-column align-items-center justify-content-center mb-0">
+							Sản phẩm nổi bật
+							<div class="line bg-color-1 mt-2"></div>
+						</h2>
+						<div class="new-product__tab d-flex align-items-center justify-content-start justify-content-lg-center overflow-auto mt-4 pt-1 px-0">
+							<div class="new-product__tab__item fw-3 color-1 hover-box-shadow-none mx-3 active">Đệm </div>
+							<div class="new-product__tab__item fw-3 color-4 hover-box-shadow-none mx-3">Rèm cửa</div>
+						</div>
+						<div class="new-product__list owl-carousel owl-theme nav--true nav--color-7 nav--outside mt-4 pt-1 px-0">
+							<div class="bg-color-10 rounded-10 overflow-hidden position-relative hover-box-shadow">
+								<img class="w-100 object-fit-cover" src="./images/product/p1.png" alt=""/>
+								<h6 class="fs-6 fw-normal pt-3 px-0 pb-3 color-3 d-block text-center mb-0 hover--color-1">Ghế ăn Elbow</h6>
+							</div>
+							<div class="bg-color-10 rounded-10 overflow-hidden position-relative hover-box-shadow">
+								<img class="w-100 object-fit-cover" src="./images/product/p2.png" alt=""/>
+								<h6 class="fs-6 fw-normal pt-3 px-0 pb-3 color-3 d-block text-center mb-0 hover--color-1">Ghế đảo bếp</h6>
+							</div>
+							<div class="bg-color-10 rounded-10 overflow-hidden position-relative hover-box-shadow">
+								<img class="w-100 object-fit-cover" src="./images/product/p3.png" alt=""/>
+								<h6 class="fs-6 fw-normal pt-3 px-0 pb-3 color-3 d-block text-center mb-0 hover--color-1">Ghế bàn ăn Mango nệm bông</h6>
+							</div>
+							<div class="bg-color-10 rounded-10 overflow-hidden position-relative hover-box-shadow">
+								<img class="w-100 object-fit-cover" src="./images/product/p4.png" alt=""/>
+								<h6 class="fs-6 fw-normal pt-3 px-0 pb-3 color-3 d-block text-center mb-0 hover--color-1">Ghế ăn Cherry gỗ tự nhiên</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			 
+			<section class="feature-prooduct py-5">
+				<div class="container">
+					<h2 class="title color-4 mb-0 d-flex flex-column align-items-center justify-content-center">
+						Đặc điểm sản phẩm
+						<div class="line bg-color-1 mt-2"></div>
+					</h2>
+					<p class="text-center fs-7 fw-normal color-4 mt-2 pt-1 mb-0">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+					</p>
+					<div class="row pt-3">
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature1.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature2.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature3.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature4.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature5.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature6.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature7.png" alt="" class="w-100 h-100"></div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 mt-4 feature-prooduct__item">
+							<div class="w-100"><img src="./images/slider/feature/feature8.jpeg" alt="" class="w-100 h-100"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="intro py-5 bg-color-2">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<div class="intro__list owl-carousel owl-theme dot--true dot--outside dot--color-9">
+							<div class="intro__list__item">
+								<div class="row">
+									<div class="col-12 col-lg-6">
+										<div class="intro__list__item__image w-100 h-100 rounded-10">
+											<img class="w-100" src="./images/slider/intro.jpeg" alt="" />
+										</div>
+									</div>
+									<div class="col-12 col-lg-6 mt-4 mt-lg-0 pt-1 pt-lg-0 d-flex flex-column align-items-center justify-content-center">
+										<h2 class="title color-4 text-center mb-0">Sofa gỗ sồi Nga hiện đại</h2>
+										<p class="text-center fs-7 fw-normal color-4 mt-2 pt-1 mb-0">
+											Được đánh giá là một trong những mẫu bàn ghế sofa gỗ chọn lọc được nhiều khách hàng yêu thích và lựa chọn nhất trên thị trường. Sản phẩm của xưởng gỗ cửa hàng Mai Thuý sở hữu mẫu mã đẹp mắt, giá cả phải chăng hù hợp với hầu hết các gia đình hiện nay.
+										</p>
+										<div class="w-100 d-flex justify-content-center mt-4 pt-1">
+											<a href="!#" class="btn btn--color-1 rounded-10 fs-6 fw-3 color-10 px-4 py-2">Báo giá ngay</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			 
+			<section class="reasons py-5">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<h2 class="title color-4 d-flex flex-column align-items-center justify-content-center text-center mb-0">
+							Tại sao nên lựa chọn sản phẩm của cửa hàng Mai Thuý?
+							<div class="line bg-color-1 mt-2"></div>
+						</h2>
+						<div class="reasons__list pt-1 px-0 pt-1">
+							<div class="row m-0">
+								<div class="col-12 col-sm-6 col-md-3 mt-4 active">
+									<div class="reasons__list__item d-flex flex-column align-items-center justify-content-center">
+										<div class="reasons__list__item__image">
+											<img class="w-auto h-auto" src="./images/reason/Mask Group 106.svg" alt="" />
+										</div>
+										<h6 class="title fw-3 text-center mt-4 mb-0 w-75">Đảm bảo chất lượng sản phẩm luôn là tốt nhất</h6>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-md-3 mt-4 pt-2 pt-lg-0">
+									<div class="reasons__list__item d-flex flex-column align-items-center justify-content-center">
+										<div class="reasons__list__item__image">
+											<img class="w-auto h-auto" src="./images/reason/Mask Group 107.svg" alt="" />
+										</div>
+										<h6 class="title fw-3 text-center mt-4 mb-0 w-75">Cung cấp giải pháp gối đệm phù hợp với yêu cầu</h6>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-md-3 mt-4 pt-2 pt-lg-0">
+									<div class="reasons__list__item d-flex flex-column align-items-center justify-content-center">
+										<div class="reasons__list__item__image">
+											<img class="w-auto h-auto" src="./images/reason/Mask Group 111.svg" alt="" />
+										</div>
+										<h6 class="title fw-3 text-center mt-4 mb-0 w-75">Bảo hành siêu tốc tại nhà trong vòng 24 - 72h</h6>
+									</div>
+								</div>
+								<div class="col-12 col-sm-6 col-md-3 mt-4 pt-2 pt-lg-0">
+									<div class="reasons__list__item d-flex flex-column align-items-center justify-content-center">
+										<div class="reasons__list__item__image">
+											<img class="w-auto h-auto" src="./images/reason/Mask Group 112.svg" alt="" />
+										</div>
+										<h6 class="title fw-3 text-center mt-4 mb-0 w-75">Hỗ trợ đổi trả trong 3 ngày đầu tiên</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>  
+			</section>
+			 
+			<section class="procedure py-5 position-relative">
+				<div class="procedure__bg position-absolute top-0 start-0 w-100 h-100 z-index-1"></div>
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<div class="procedure__title z-index-2">
+							<h2 class="title color-10 d-flex flex-column align-items-center justify-content-center text-center mb-0">
+								Quy trình đặt hàng <br class="d-block d-lg-none">từ chúng tôi
+								<div class="line bg-color-1 mt-2"></div>
+							</h2>
+						</div>
+						<div class="procedure__list owl-carousel owl-theme dot--true dot--outside dot--color-10 z-index-2 pt-1">
+							<div class="mt-4">
+								<div class="procedure__list__item d-flex flex-column align-items-center">
+									<div class="procedure__list__item__num mb-3 bg-color-10 rounded-circle fs-3 fw-3 color-1 d-flex align-items-center justify-content-center">1</div>
+									<h5 class="title mt-3 text-center color-10">Bước 1: Đặt thiết kế</h5>
+									<p class="mt-2 color-10 text-center fs-7 fw-normal color-4 mb-0">Đặt thiết kế riêng hoặc lựa chọn trong danh sách mẫu tại cửa hàng Mai Thuý</p>
+								</div>
+							</div>
+							<div class="mt-4">
+								<div class="procedure__list__item d-flex flex-column align-items-center">
+									<div class="procedure__list__item__num mb-3 bg-color-10 rounded-circle fs-3 fw-3 color-1 d-flex align-items-center justify-content-center">2</div>
+									<h5 class="title mt-3 text-center color-10">Bước 2: Báo giá</h5>
+									<p class="mt-2 color-10 text-center fs-7 fw-normal color-4 mb-0">cửa hàng Mai Thuý sẽ liên hệ lại, xác nhận và báo giá sản phẩm trong vòng 24h</p>
+								</div>
+							</div>
+							<div class="mt-4">
+								<div class="procedure__list__item d-flex flex-column align-items-center">
+									<div class="procedure__list__item__num mb-3 bg-color-10 rounded-circle fs-3 fw-3 color-1 d-flex align-items-center justify-content-center">3</div>
+									<h5 class="title mt-3 text-center color-10">Bước 3: Sản xuất</h5>
+									<p class="mt-2 color-10 text-center fs-7 fw-normal color-4 mb-0">Đơn hàng sẽ nhanh chóng được đưa vào quy trình sản xuất</p>
+								</div>
+							</div>
+							<div class="mt-4">
+								<div class="procedure__list__item d-flex flex-column align-items-center">
+									<div class="procedure__list__item__num mb-3 bg-color-10 rounded-circle fs-3 fw-3 color-1 d-flex align-items-center justify-content-center">4</div>
+									<h5 class="title mt-3 text-center color-10">Bước 4: Giao hàng</h5>
+									<p class="mt-2 color-10 text-center fs-7 fw-normal color-4 mb-0">Toàn bộ sản phẩm được đóng gói và giao đi với tình trạng tốt nhất</p>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center justify-content-center mt-4 pt-1">
+							<a class="btn btn--color-1 rounded-10 fs-6 fw-3 color-10 px-4 py-2 z-index-2" href="!#">Xem quy trình sản xuất của chúng tôi</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="register py-5">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<h2 class="title color-4 mb-0">
+								Đăng ký tư vấn gối đệm
+								<div class="line bg-color-1 mt-2"></div>
+							</h2>
+							<div class="register__form mt-4 pt-1">
+								<div class="row">
+									<div class="col-12 mb-2">
+										<div class="label fs-7 color-4">Họ và tên <span class="color-1"> *</span></div>
+										<input type="text" class="w-100 bg-color-7 rounded-10 border-0 px-4 py-2" />
+									</div>
+									<div class="col-12 col-sm-6 mt-2 mb-2">
+										<div class="label fs-7 color-4">Số điện thoại <span class="color-1"> *</span></div>
+										<input type="text" class="w-100 bg-color-7 rounded-10 border-0 px-4 py-2" />
+									</div>
+									<div class="col-12 col-sm-6 mt-2 mb-2">
+										<div class="label fs-7 color-4">Email <span class="color-1"> *</span></div>
+										<input type="text" class="w-100 bg-color-7 rounded-10 border-0 px-4 py-2" />
+									</div>
+									<div class="col-12 mt-2 mb-2">
+										<div class="label fs-7 color-4">Địa chỉ <span class="color-1"> *</span></div>
+										<input type="text" class="w-100 bg-color-7 rounded-10 border-0 px-4 py-2" />
+									</div>
+									<div class="col-12 mt-2">
+										<div class="label fs-7 color-4">Bạn cần chúng tôi tư vấn? <span class="color-1"> *</span></div>
+										<textarea class="w-100 bg-color-7 rounded-10 border-0 p-4" name="" id="textarea" cols="30" rows="2"></textarea>
+									</div>
+								</div>
+								<div class="w-100 mt-4 pt-1">
+									<a href="!#" class="btn btn--color-1 rounded-10 fs-6 fw-3 color-10 px-4 py-2">Đăng ký</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6 mt-4 mt-lg-0">
+							<div class="w-100 h-100 rounded-10 overflow-hidden">
+								<img class="w-100" src="./images/slider/rem-cua-so-04.jpeg" alt=""/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="feedback py-5 text-center bg-color-9 color-10 position-relative">
+				<div class="feedback__bg position-absolute top-0 start-0 w-100 h-100 z-index-1"></div>
+				<div class="container py-0 py-md-3 mt-0 mt-md-2">
+					<div class="row">
+						<div class="feedback__title mb-4 pb-1 mt-2 z-index-2">
+							<h2 class="title color-10 mb-0 d-flex flex-column align-items-center justify-content-center text-center">
+								Khách hàng họ nói gì<br class="d-block d-lg-none"> về chúng tôi?
+								<div class="line bg-color-1 mt-2"></div>
+							</h2>
+						</div>
+						<div class="feedback__list owl-carousel owl-theme dot--true dot--color-10 nav--true nav--color-10 pb-4 z-index-2">
+							<div class="feedback__list__item">
+								<div class="feedback__list__item__avatar mb-3 pb-1 mx-auto">
+									<img class="w-100 object-fit-cover" src="./images/avatar.png" alt="SIMONE PAROTTI"/>
+								</div>
+								<div class="feedback__list__item__content w-75 mx-auto">
+									<p class="mb-3 pb-1">"Đồ gối đệm ở cửa hàng Mai Thuý chất lượng rất
+											tốt, các phong cách bắt kịp xu hướng hiện nay. Tôi đã mua ở cửa hàng Mai Thuý rất nhiều sản phẩm và luôn tin
+											dùng gối đệm của cửa hàng Mai Thuý."</p>
+									<img class="w-auto h-auto d-block mx-auto" src="./images/icon-name.svg" alt="">
+									<p class="fs-7 fw-normal color-10 pt-2">
+										SIMONE PAROTTI
+									</p>
+								</div>
+							</div>
+							<div class="feedback__list__item">
+								<div class="feedback__list__item__avatar mb-3 pb-1 mx-auto">
+									<img class="w-100 object-fit-cover" src="./images/avatar.png" alt="SIMONE PAROTTI"/>
+								</div>
+								<div class="feedback__list__item__content w-75 mx-auto">
+									<p class="mb-3 pb-1">"Đồ gối đệm ở cửa hàng Mai Thuý chất lượng rất
+											tốt, các phong cách bắt kịp xu hướng hiện nay. Tôi đã mua ở cửa hàng Mai Thuý rất nhiều sản phẩm và luôn tin
+											dùng gối đệm của cửa hàng Mai Thuý."</p>
+									<img class="w-auto h-auto d-block mx-auto" src="./images/icon-name.svg" alt="">
+									<p class="fs-7 fw-normal color-10 pt-2">SIMONE PAROTTI</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="news pt-5">
+				<div class="container pt-0 pt-md-3 mt-0 mt-md-2">
+					<div class="row">
+						<h2 class="title color-4 d-flex flex-column align-items-center justify-content-center mb-0">
+							Tin tức - Sự kiện
+							<div class="line bg-color-1 mt-2"></div>
+						</h2>
+						<div class="news__list owl-carousel owl-theme position-relative nav--true nav--color-7 nav--outside mt-4 pt-1 px-0">
+							<div class="news__list__item rounded-10 bg-color-10 overflow-hidden box-shadow-sm">
+								<img class="w-100" src="./images/slider/mau-rem-cua-dep.png" alt=""/>
+								<div class="p-3">
+									<div class="d-flex align-items-center">
+										<img class="w-auto h-auto me-2"  src="./images/icon/date.svg" alt=""/>
+										<span class="fs-7 fw-normal color-21">09/06/2022</span>
+									</div>
+									<h6 class="title mt-2 mb-0 overflow-hidden">Kích thước phong ngủ tiêu chuẩn, hợp phong thủy của Cử hàng Mai Thuý</h6>
+									<p class="mt-2 fs-7 fw-normal color-4 mb-0">Diện tích phòng ngủ tối thiểu từ 10m2 và tối đa đến 25m2, 30m2 làhợp lý và phù hợp nhất, tùy vào...</p>
+								</div>
+							</div>
+							<div class="news__list__item rounded-10 bg-color-10 overflow-hidden box-shadow-sm">
+								<img class="w-100" src="./images/slider/mau-rem-ngu-dep-1.jpeg" alt=""/>
+								<div class="p-3">
+									<div class="d-flex align-items-center">
+										<img class="w-auto h-auto me-2" src="./images/icon/date.svg" alt=""/>
+										<span class="fs-7 fw-normal color-21">09/06/2022</span>
+									</div>
+									<h6 class="title mt-2 mb-0 overflow-hidden">Acrylic là gì? Tất tần tật thông tin chi tiết về chất liệu Acrylic</h6>
+									<p class="mt-2 fs-7 fw-normal color-4 mb-0">Acrylic là một loại vật liệu nhựa có tên khoa học PMMA (polymethyl methacrylate). Nguồn gốc của...</p>
+								</div>
+							</div>
+							<div class="news__list__item rounded-10 bg-color-10 overflow-hidden box-shadow-sm">
+								<img class="w-100" src="./images/slider/Mau-rem-cua-dep-1 (1).jpeg" alt=""/>
+								<div class="p-3">
+									<div class="d-flex align-items-center">
+										<img class="w-auto h-auto me-2" src="./images/icon/date.svg" alt=""/>
+										<span class="fs-7 fw-normal color-21">09/06/2022</span>
+									</div>
+									<h6 class="title mt-2 mb-0 overflow-hidden">Tổng hợp mẫu tủ bếp gỗ đẹp, cao cấp được ưa chuộng nhất hiện nay</h6>
+									<p class="mt-2 fs-7 fw-normal color-4 mb-0">Tổng hợp mẫu tủ bếp gỗ với đẹp, thiết kế đa phong cách, kiểu dángcùng công năng hoàn hảo mang...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="brand py-5">
+				<div class="container py-0 py-md-4 my-0 my-md-2">
+					<div class="row">
+						<h2 class="title color-4 mb-0 d-flex flex-column align-items-center justify-content-center">
+							Thương hiệu nổi bật
+							<div class="line bg-color-1 mt-2"></div>
+						</h2>
+						<div class="brand__list owl-carousel owl-theme nav--true nav--color-7 nav--outside mt-4 pt-1 px-0">
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/Aaron's.png" alt="" class="w-100 h-100 object-fit-cover"/>
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">Aaron's</h6>
+							</div>
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/rowhouse-logo.png" alt="" class="w-100 h-100 object-fit-cover"/>
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">Row House</h6>
+							</div>
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/kisspng-ashley.png" alt="" class="w-100 h-100 object-fit-cover"/>
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">Ashley Homestore</h6>
+							</div>
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/Dunelm.png" alt="" />
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">Dunelm</h6>
+							</div>
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/SofaWorkshop.png" alt="" class="w-100 h-100 object-fit-cover"/>
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">Sofa Workshop</h6>
+							</div>
+							<div>
+								<div class="bg-color-10 rounded-10 overflow-hidden box-shadow-sm">
+									<img src="./images/Ikea.png" alt="" class="w-100 h-100 object-fit-cover"/>
+								</div>
+								<h6 class="title text-center mt-2 mb-0 pt-1">IKEA</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</main>
+		<footer class="footer bg-color-7">
+			<div class="footer__content d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+				<div class="container">
+					<div class="row">
+					<div class="footer__content__item col-lg-3 col-12 mt-4">
+						<img class="footer__content__item__logo" src="./images/logo.svg" alt="" />
+						<div class="footer__content__item__info mt-4">
+							<a class="d-flex text-decoration-none">
+								<i class="fa-sharp fa-solid fa-location-dot fs-8 me-2 color-1 pt-1"></i>
+								<p class="fs-8 fw-normal color-4 mt-0 mb-0">Tầng 3 số 14 Pháo Đài Láng, Đống Đa, Hà Nội</p>
+							</a>
+							<a href="tel:0842 066 555" class="d-flex text-decoration-none mt-2">
+								<i class="fa-solid fa-phone fs-8 me-2 color-1 pt-1"></i>
+								<p class="fs-8 fw-normal color-4 mt-0 mb-0">0962.180.180</p>
+							</a>
+							<a href="mailto:bachvietkm@gmail.com" subject="subject text" class="d-flex text-decoration-none mt-2">
+								<i class="fa-solid fa-envelope fs-8 me-2 color-1 pt-1"></i>
+								<p class="fs-8 fw-normal color-4 mt-0 mb-0">info@cửa hàng Mai Thuý.vn</p>
+							</a>
+							<a class="info__item d-flex text-decoration-none mt-2">
+								<i class="fa-solid fa-clock fs-8 me-2 color-1 pt-1"></i>
+								<p class="fs-8 fw-normal color-4 mt-0 mb-0">Thứ 2 - Chủ Nhật : 8:00 - 22:00</p>
+							</a>
+						</div>
+						<div class="footer__content__item__social mt-3 pt-3">
+							<h6 class="title color-4 m-0">Kết nối với chúng tôi</h6>
+							<div class="footer__content__item__social__list d-flex mt-2">
+								<a class="text-decoration-none rounded-circle bg-color-10 d-flex align-items-center d-flex align-items-center justify-content-center me-3 cursor-pointer">
+									<i class="fa-brands fa-facebook-f fs-6 color-1"></i>
+								</a>
+								<a class="text-decoration-none rounded-circle bg-color-10 d-flex align-items-center d-flex align-items-center justify-content-center me-3 cursor-pointer">
+									<i class="fa-brands fa-instagram fs-6 color-1"></i>
+								</a>
+								<a class="text-decoration-none rounded-circle bg-color-10 d-flex align-items-center d-flex align-items-center justify-content-center me-3 cursor-pointer">
+									<i class="fa-brands fa-twitter fs-6 color-1"></i>
+								</a>
+								<a class="text-decoration-none rounded-circle bg-color-10 d-flex align-items-center d-flex align-items-center justify-content-center me-3 cursor-pointer">
+									<i class="fa-brands fa-google fs-6 color-1"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__content__item col-lg-2 col-12 mt-4">
+						<h6 class="title color-4 mb-2"">Liên kết nhanh</h6>
+						<div>
+							<div class="row row-cols-2 row-cols-lg-1">
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Trang chủ</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Giới thiệu</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Sản phẩm</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Dự án</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Quy trình sản xuất</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Tin tức</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Tuyển dụng</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Liên hệ</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__content__item col-lg-3 col-12 mt-4">
+						<h6 class="title color-4 mb-2">Điều khoản - Chính sách</h6>
+						<div>
+							<div class="row row-cols-2 row-cols-lg-1">
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Điều khoản sử dụng</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Chính sách bảo mật</a>
+								<a class="color-3 text-decoration-none fs-8 py-1" href="">Chính sách thanh toán</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__content__item col-lg-4 col-12 mt-4">
+						<div class="footer__content__item__top position-relative overflow-hidden rounded-6 p-2 w-100">
+							<div class="footer__content__item__top__content d-flex position-absolute top-0 start-0 w-100 h-100 p-2 rounded-10 overflow-hidden">
+								<div class="footer__content__item__top__content__left rounded-4 overflow-hidden me-3">
+									<img src="./images/footer/page-avatar.png" alt="" />
+								</div>
+								<div class="footer__content__item__top__content__right d-flex flex-column justify-content-between">
+									<div class="fs-7 fw-3 color-10">Cử hàng Mai Thuý</div>
+									<div class="d-flex align-items-center">
+										<div class="rounded-4 bg-color-10 color-9 fs-8 fw-3 py-2 px-2 d-flex align-items-center">
+											<img src="./images/footer/facebook.svg" alt="" class="me-2" />Thích
+										</div>
+										<span class="like-num fs-8 fw-normal color-10 ms-2">50K người đã thích</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer__content__item__bottom register mt-4 pb-0">
+							<h6 class="title color-4 mb-0">Đăng ký nhận bản tin từ chúng tôi</h6>
+							<p class="fs-8 fw-normal color-4 mt-3 mb-0"> Đăng ký với địa chỉ email của bạn để cập nhập nhanh nhất những tin tức từ chúng tôi.</p>
+							<div class="footer__content__item__bottom__email position-relative mt-2">
+								<input type="email" placeholder="info@cửa hàng Mai Thuý.vn" class="footer__content__item__bottom__email__input border-0 bg-color-10 w-100 rounded-20 px-4 py-2"/>
+								<div class="rounded-circle bg-color-1 d-flex align-items-center justify-content-center position-absolute top-50 end-0 me-1 translate-middle-y cursor-pointer p-2">
+									<img class="w-auto h-auto" src="./images/footer/link.svg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__source pt-3 mt-3 mt-lg-0 ptlg-0 text-center text-lg-start w-100">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex flex-column-reverse flex-md-row align-items-start align-items-lg-center justify-content-between py-3 border-top">
+							<div class="copy-right fs-8 color-5 fw-normal text-center text-lg-start w-100 w-lg-unset">
+								COPYRIGHT © 2022 cửa hàng Mai Thuý
+							</div>
+							<img class="w-auto" src="./images/footer/thongbaobocongthuong.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+  </div>
+	
+	<div class="mobile-sidebar d-lg-none bg-color-10 position-fixed top-0 d-flex flex-column justify-content-start ms-0" id="sidebar">
+		<div class="mobile-sidebar__top d-flex align-item-center justify-content-between py-3 px-4"> 
+			<img class="mobile-sidebar__top__logo" src="./images/logo.svg" alt="Logo"> 
+			<div class="mobile-sidebar__top__close bg-color-2 rounded-circle d-flex align-items-center justify-content-center" onclick="closeSidebar()">
+				<img class="w-auto h-auto" src="./images/icon-close.svg" alt="">
+			</div>
+		</div>
+		<div class="mobile-sidebar__bottom d-flex flex-column justify-content-between h-100 bg-color-2">
+			<ul class="mobile-sidebar__bottom__menu d-flex flex-column justify-content-start align-items-start px-3">
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom active">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Trang chủ</a>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Giới thiệu</a>
+					<i class="bi bi-chevron-down"></i>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Sản phẩm</a>
+					<i class="bi bi-chevron-down"></i>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Dự án</a>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Quy trình sản xuất</a>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Tin tức</a>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Tuyển dụng</a>
+				</li>
+				<li class="py-3 px-0 w-100 d-flex align-items-center justify-content-between border-bottom">
+					<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Liên Hệ</a>
+				</li>
+				<li class="py-4 px-0 border-none w-100 list-unstyled">
+					<div class="d-flex align-items-center justify-content-between">
+						<a href="#!" class="fs-6 color-4 fw-3 text-decoration-none">Ngôn ngữ</a>
+						<span class="toggle">
+							<i class="fal fa-chevron-down fs-7 ms-1"></i>
+						</span>
+					</div>
+					<ul class="p-0">
+						<li class="pt-2 px-0 border-0 list-unstyled active"> 
+							<a href="#!" class="fs-7 color-9 ps-1 text-decoration-none">Tiếng Việt</a> 
+						</li>
+						<li class="pt-2 px-0 fs-7 color-8 border-none list-unstyled">
+							<a href="#!" class="fs-7 color-9 ps-1 text-decoration-none">Tiếng Anh</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="d-block bg-color-1 text-center d-flex align-items-center justify-content-center py-3"> 
+				<a href="tel:0962180180" class="fs-5 color-10 text-decoration-none">Báo giá</a>
+			</div>
+		</div>
+	</div>
+	<div class="menu-bars-close"></div>
+
+
+
+</body>
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/owl-carousel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+</html>

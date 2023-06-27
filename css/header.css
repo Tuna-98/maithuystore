@@ -1,0 +1,51 @@
+.menu-bars-close {
+  transition: 0.5s;
+}
+.menu-bars-close--toggle {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.header.stuck {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: stuckMoveDown 0.6s;
+  z-index: 100;
+  background: #fff;
+}
+.header__bottom__logo {
+  width: 170px;
+}
+
+.mobile-sidebar {
+  width: 280px;
+  height: 100vh;
+  transition: 0.5s;
+  left: -100%;
+  z-index: 9999;
+}
+.mobile-sidebar__top__logo {
+  width: 96px;
+}
+.mobile-sidebar__top__close {
+  width: 32px;
+  height: 32px;
+}
+.mobile-sidebar.show-sidebar {
+  left: 0 !important;
+  transition: 0.4s;
+}
+
+.box-shadow-sm {
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.0784313725);
+}
